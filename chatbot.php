@@ -2,7 +2,7 @@
 session_start();
 include("db.php");
 
-$api_key = "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"; 
+$api_key = "your_api_key"; 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $prompt = trim($_POST['prompt'] ?? '');
@@ -109,3 +109,4 @@ HTML;
 
 header("Location: buyer_dashboard.php");
 exit();
+
