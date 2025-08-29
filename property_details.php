@@ -142,7 +142,7 @@ if (isset($_SESSION['user_id']) && $_SESSION['role'] === 'buyer') {
 </script>
 
 <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjAVfYCibcprFmOkxL-rezt9yoE72p7L4&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -176,3 +176,4 @@ if (isset($_SESSION['user_id']) && $_SESSION['role'] === 'buyer') {
 
 </body>
 </html>
+
